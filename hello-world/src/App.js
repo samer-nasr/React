@@ -11,6 +11,7 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import FirstPractice from './Practice/FirstPractice';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <EventBind></EventBind> */}
       {/* <ParentComponent/> */}
       {/* <UserGreeting/> */}
-      <NameList/>
+      {/* <NameList/> */}
+      <FirstPractice name = "Samer"/>
     </div>
   );
 }
