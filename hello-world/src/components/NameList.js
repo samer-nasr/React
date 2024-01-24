@@ -2,6 +2,7 @@ import React from 'react'
 import Person from './Person'
 
 function NameList() {
+    const names = ['dany' , 'elie' , 'georges']
     const persons =[
         {
             id : 1,
@@ -24,9 +25,11 @@ function NameList() {
             skill : 'Angular'
         }
     ]
-    const personList = persons.map(person => <Person key={person.id} person={person} />)
+    const nameList = names.map((name,index) => <h2 key ={index}>{index} {name}</h2>)
+    // const personList = persons.map(person => <Person key={person.id} person={person} />)
   return (
-    <div>{ personList}</div>
+    // <div>{ personList}</div>
+    <div>{nameList}</div>
   )
 }
 

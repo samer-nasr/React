@@ -12,6 +12,15 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import FirstPractice from './Practice/FirstPractice';
+import StyleSheet from './components/StyleSheet';
+import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
+import Form from './components/Form';
+import Lifecycle from './components/Lifecycle';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
@@ -39,6 +48,19 @@ function App() {
       {/* <ParentComponent/> */}
       {/* <UserGreeting/> */}
       {/* <NameList/> */}
+      {/* <StyleSheet primary={true}/> */}
+      {/* <Inline/> */}
+      {/* <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1> */}
+
+      {/* <Form/> */}
+      {/* <Lifecycle/> */}
+
+      {/* <FragmentDemo/> */}
+      {/* <Table/> */}
+     {/* <PureComp/> */}
+      {/* <RefsDemo/> */}
+
       <FirstPractice name = "Samer"/>
     </div>
   );

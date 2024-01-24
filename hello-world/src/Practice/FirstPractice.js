@@ -8,7 +8,7 @@ class FirstPractice extends Component {
       super(props)
     
       this.state = {
-         message : 'Hello From React',
+         message : 'Hello From  React',
          count   : 0,
          isloged : false
       }
